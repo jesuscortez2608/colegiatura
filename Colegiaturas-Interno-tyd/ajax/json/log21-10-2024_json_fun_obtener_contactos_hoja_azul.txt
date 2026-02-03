@@ -1,0 +1,4 @@
+11:38:05 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 791605 waits for ShareLock on transaction 83761628; blocked by process 791606.
+Process 791606 waits for ShareLock on transaction 83761627; blocked by process 791605.;
+Error while executing the query 

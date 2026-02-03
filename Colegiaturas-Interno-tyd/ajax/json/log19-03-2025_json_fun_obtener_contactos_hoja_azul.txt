@@ -1,0 +1,8 @@
+11:01:35 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 
+11:02:14 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 
+11:06:42 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 
+11:07:16 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 

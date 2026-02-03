@@ -1,0 +1,133 @@
+-- Function: public.fun_obtener_stmp_facturas_colegiaturas(integer, integer, character varying)
+
+-- DROP FUNCTION public.fun_obtener_stmp_facturas_colegiaturas(integer, integer, character varying);
+
+CREATE OR REPLACE FUNCTION public.fun_obtener_stmp_facturas_colegiaturas(integer, integer, character varying)
+  RETURNS SETOF type_stmp_facturas_colegiaturas AS
+$BODY$
+   DECLARE
+
+        iEmpleado     	ALIAS FOR $1;
+        iFactura 	ALIAS FOR $2;
+        cFactura   	ALIAS FOR $3;
+        registro	type_stmp_facturas_colegiaturas;
+	 /*
+	     No. petición APS               : 8613.1
+	     Fecha                          : 12/10/2016
+	     Número empleado                : 93902761
+	     Nombre del empleado            : Nallely Machado
+	     Base de datos                  : personal
+	     Servidor de pruebas            : 10.44.64.190
+	     Servidor de produccion         : 10.44.1.14
+	     Descripción del funcionamiento : Regresa los beneficiarios del empleado y folio de la temporal
+	     Descripción del cambio         : NA
+	     Sistema                        : Colegiaturas
+	     Módulo                         : Subir factura 
+	     Ejemplo                        : 
+		 SELECT * FROM fun_obtener_stmp_facturas_colegiaturas(93902761,8,'B0BDB98B-9641-4837-A7D4-27F43739D55C'); 
+		SELECT * FROM fun_obtener_stmp_facturas_colegiaturas(93902761,866,'');
+
+		 
+	*/
+	
+BEGIN
+	create local temp table tmp_detalles_facturas  
+	(
+		idu_hoja_azul integer not null default 1,
+		idu_beneficiario integer  not null default 0,
+		nom_beneficiario varchar(150) not null default '',
+		idu_parentesco integer  not null default 0,
+		nom_parentesco varchar(20)  not null default '',
+		idu_tipo_pago  integer  not null default 0,
+		des_tipo_pago varchar(20) NOT NULL DEFAULT '',
+		nom_periodo varchar(150)  not null default '',
+		idu_escolaridad integer  not null default 0,
+		nom_escolaridad varchar(30)  not null default '',
+		idu_grado integer  not null default 0,
+		nom_grado varchar(50)  not null default '',
+		idu_ciclo integer not null default 0,
+		nom_ciclo_escolar varchar(30) not null default '',
+		idu_carrera integer not null default 0,
+		nom_carrera varchar(300) not null default '',
+		imp_importe numeric(12,2),
+		keyx integer
+
+	) on commit drop; 
+
+	INSERT INTO tmp_detalles_facturas(idu_beneficiario
+					, idu_parentesco
+					, idu_tipo_pago
+					, nom_periodo
+					, idu_escolaridad
+					, idu_grado
+					, idu_ciclo
+					, idu_carrera
+					, imp_importe
+					, keyx
+					, idu_hoja_azul )
+	select	idu_beneficiario
+		, idu_parentesco
+		, idu_tipopago
+		, periodo
+		, idu_escolaridad
+		, idu_grado_escolar
+		, idu_ciclo_escolar
+		, idu_carrera
+		, importe_concepto
+		, keyx
+		, beneficiario_hoja_azul
+	from 	stmp_detalle_facturas_colegiaturas
+	WHERE 	idu_empleado = iEmpleado 
+		and trim(fol_fiscal) = trim(cFactura) 
+		and idFactura=iFactura;
+
+	update 	tmp_detalles_facturas set nom_parentesco=  a.des_parentesco
+	from 	cat_parentescos a where a.idu_parentesco=tmp_detalles_facturas.idu_parentesco;
+
+	update tmp_detalles_facturas set nom_escolaridad=a.nom_escolaridad 
+	from cat_escolaridades a where a.idu_escolaridad=tmp_detalles_facturas.idu_escolaridad;
+
+	update tmp_detalles_facturas set nom_grado=a.nom_grado_escolar
+	from cat_grados_escolares a where a.idu_grado_escolar=tmp_detalles_facturas.idu_grado and a.idu_escolaridad=tmp_detalles_facturas.idu_escolaridad;
+
+	update tmp_detalles_facturas set nom_ciclo_escolar=a.des_ciclo_escolar 
+	from cat_ciclos_escolares a where a.idu_ciclo_escolar=tmp_detalles_facturas.idu_ciclo;
+
+	update tmp_detalles_facturas set des_tipo_pago=a.des_tipo_pago 
+	from cat_tipos_pagos a where a.idu_tipo_pago=tmp_detalles_facturas.idu_tipo_pago;
+
+
+	--NOMBRE DE LOS BENEFICIARIOS HOJA AZUL
+	UPDATE tmp_detalles_facturas SET nom_beneficiario=trim(b.nombre)||' '||trim(b.apellidopaterno)||' '||trim(b.apellidomaterno)
+	FROM sapfamiliarhojas b WHERE b.numemp=iEmpleado and b.keyx=tmp_detalles_facturas.idu_beneficiario and tmp_detalles_facturas.idu_hoja_azul=1 and b.beneficiarioactivo=1;
+
+
+	--NOMBRE DE LOS BENEFICIARIOS ESPECIALES
+	UPDATE tmp_detalles_facturas SET nom_beneficiario=trim(b.nom_beneficiario)||' '||trim(b.ape_paterno)||' '||trim(b.ape_materno)
+	FROM CAT_BENEFICIARIOS_COLEGIATURAS b WHERE b.idu_empleado=iEmpleado and b.idu_beneficiario=tmp_detalles_facturas.idu_beneficiario  and tmp_detalles_facturas.idu_hoja_azul=0;
+
+	--Agregar nombre de la carrera
+	update	tmp_detalles_facturas
+	set	nom_carrera = trim(UPPER(C.nom_carrera))
+	from	cat_carreras C
+	where	tmp_detalles_facturas.idu_carrera = C.idu_carrera;
+
+	FOR registro IN ( SELECT idu_hoja_azul, idu_beneficiario, nom_beneficiario, idu_parentesco, nom_parentesco, idu_tipo_pago, des_tipo_pago,
+	nom_periodo, idu_escolaridad, nom_escolaridad, idu_grado, nom_grado, idu_ciclo, nom_ciclo_escolar, idu_carrera, nom_carrera, imp_importe, keyx from tmp_detalles_facturas order by keyx) 
+	LOOP
+		RETURN NEXT registro;
+	END LOOP;
+END;
+$BODY$
+  LANGUAGE plpgsql VOLATILE SECURITY DEFINER;
+ALTER FUNCTION public.fun_obtener_stmp_facturas_colegiaturas(integer, integer, character varying)
+  OWNER TO postgres;
+GRANT EXECUTE ON FUNCTION public.fun_obtener_stmp_facturas_colegiaturas(integer, integer, character varying) TO public;
+GRANT EXECUTE ON FUNCTION public.fun_obtener_stmp_facturas_colegiaturas(integer, integer, character varying) TO postgres;
+GRANT EXECUTE ON FUNCTION public.fun_obtener_stmp_facturas_colegiaturas(integer, integer, character varying) TO sysinternet;
+GRANT EXECUTE ON FUNCTION public.fun_obtener_stmp_facturas_colegiaturas(integer, integer, character varying) TO syspersonal;
+GRANT EXECUTE ON FUNCTION public.fun_obtener_stmp_facturas_colegiaturas(integer, integer, character varying) TO sysetl;
+GRANT EXECUTE ON FUNCTION public.fun_obtener_stmp_facturas_colegiaturas(integer, integer, character varying) TO "94804851";
+GRANT EXECUTE ON FUNCTION public.fun_obtener_stmp_facturas_colegiaturas(integer, integer, character varying) TO "93917295";
+GRANT EXECUTE ON FUNCTION public.fun_obtener_stmp_facturas_colegiaturas(integer, integer, character varying) TO "97231843";
+GRANT EXECUTE ON FUNCTION public.fun_obtener_stmp_facturas_colegiaturas(integer, integer, character varying) TO "98450221";

@@ -1,0 +1,30 @@
+8:24:49 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 
+8:25:37 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 
+8:26:28 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 
+8:28:11 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 
+8:32:38 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 
+8:32:54 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 
+3:45:42 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 4161311 waits for ShareLock on transaction 70753059; blocked by process 4161312.
+Process 4161312 waits for ShareLock on transaction 70753058; blocked by process 4161311.;
+Error while executing the query 
+4:06:54 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>95056912</a>
+				<b>1</b>
+				<c>7</c>
+				<d>3</d>
+				<e>RODRIGUEZ</e>
+				<f>LARA</f>
+				<g>CARLOS</g>
+				<h>1989-11-21</h>
+				<i>3</i>
+				<j>VDEC</j>
+				<k>DISE#ADOR GRAFICO PUBLICITARI";
+Error while executing the query 

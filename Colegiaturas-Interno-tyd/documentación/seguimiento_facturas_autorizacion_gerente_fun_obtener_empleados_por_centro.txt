@@ -1,0 +1,23 @@
+fun_obtener_empleados_por_centro
+----------------------------------------------------------------------------
+La función fun_obtener_empleados_por_centro debe obtener un listado con los nombres de los empleados en un centro.
+Parámetros:
+	INTEGER, valor entero para indicar el número de centro
+	
+Resultado:
+Debe devolver un listado con el siguiente tipo:
+	idu_empleado INTEGER
+	nom_empleado VARCHAR(150)
+	opc_cancelado INTEGER
+	
+El resultado se obtendrá de la tabla cat_empleadoslinea_gx; y el nombre del empleado deberá formarse con los datos del nombre del empleado:
+	cat_empleadoslinea_gx.nom_empleado
+	cat_empleadoslinea_gx.nom_empapellidopaterno
+	cat_empleadoslinea_gx.nom_empapellidomaterno
+	
+El valor para el campo opc_cancelado se obtendrá del campo cat_empleadoslinea_gx.opc_canceladoempleado.
+
+
+Instalación
+Servidor: 10.44.2.29
+Base de datos: administracion

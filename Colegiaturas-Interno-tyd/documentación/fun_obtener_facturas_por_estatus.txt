@@ -1,0 +1,38 @@
+La función fun_obtener_facturas_por_estatus debe obtener un listado de facturas según el siguiente filtro:
+	- Centro
+	- Empleado (opcional, si no se especifica se consultan todas las facturas de todos los empleados del centro)
+	- Estatus
+	- Fecha inicial
+	- Fecha final
+	
+Parámetros:
+    INTEGER, número de centro
+    INTEGER, número de empleado
+    INTEGER, estatus
+    TIMESTAMP WITHOUT TIME ZONE, fecha inicial
+    TIMESTAMP WITHOUT TIME ZONE, fecha final
+    
+Resultado:
+Debe devolver un listado con el siguiente tipo:
+	fec_estatus TIMESTAMP WITHOUT TIME ZONE, Fecha en que se marcó el estatus (mov_facturas_colegiaturas.fec_marco_estatus, his_facturas_colegiaturas.fec_marco_estatus)
+	emp_estatus VARCHAR(170), número y nombre del empleado que marcó el estatus (tomar el nombre de la tabla cat_empleadoslinea_gx)
+	emp_factura VARCHAR(170), número y nombre del empleado al que pertenece la factura
+	fol_fiscal VARCHAR(100), folio fiscal de la factura
+	ruta_pago VARCHAR(20), ruta de pago para el empleado
+	clave_nombre_escuela VARCHAR(120), cat_escuelas_colegiaturas.rfc_clave_sep
+	importe_factura NUMERIC(12,2),
+	importe_pagado NUMERIC(12,2),
+	idu_ruta_pago INTEGER
+	idu_empleado INTEGER, número de empleado al que pertenece la factura
+	idu_estatus INTEGER, folio del estatus
+	keyx INTEGER
+	
+El resultado se debe obtener principalmente de las tablas:
+	mov_facturas_colegiaturas
+	mov_detalle_facturas_colegiaturas
+	his_facturas_colegiaturas
+	his_detalle_facturas_colegiaturas
+	
+Instalación
+Servidor: 10.44.2.29
+Base de datos: administracion

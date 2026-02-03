@@ -1,0 +1,18 @@
+9:57:19 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 
+9:58:02 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 
+9:59:09 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 
+10:09:55 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 
+10:10:17 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 
+2:02:23 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 1525326 waits for ShareLock on transaction 90653803; blocked by process 1525328.
+Process 1525328 waits for ShareLock on transaction 90653801; blocked by process 1525326.;
+Error while executing the query 
+5:47:45 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 1836580 waits for ShareLock on transaction 90706138; blocked by process 1836577.
+Process 1836577 waits for ShareLock on transaction 90706140; blocked by process 1836580.;
+Error while executing the query 

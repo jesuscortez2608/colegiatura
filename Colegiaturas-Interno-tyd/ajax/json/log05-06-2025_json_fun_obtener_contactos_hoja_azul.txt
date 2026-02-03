@@ -1,0 +1,2 @@
+10:18:25 am -> Error: -2 Tipo: Error al intentar conectarse al servidor. Codigo de error [S1000] [FreeTDS][SQL Server]Unable to connect to data source 
+5:38:32 pm -> Error: -2 Tipo: Error al intentar conectarse al servidor. Codigo de error [S1000] [FreeTDS][SQL Server]Unable to connect to data source 

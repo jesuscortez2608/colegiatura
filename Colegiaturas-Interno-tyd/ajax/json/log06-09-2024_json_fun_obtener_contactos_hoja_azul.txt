@@ -1,0 +1,27 @@
+7:17:45 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 41769 waits for ShareLock on transaction 76560683; blocked by process 41770.
+Process 41770 waits for ShareLock on transaction 76560682; blocked by process 41769.;
+Error while executing the query 
+8:07:25 am -> Error: -2 Tipo: Error al intentar conectarse al servidor. Codigo de error [S1000] [FreeTDS][SQL Server]Unable to connect to data source 
+12:51:42 pm -> Error: -2 Tipo: Error al intentar conectarse al servidor. Codigo de error [S1000] [FreeTDS][SQL Server]Unable to connect to data source 
+1:05:08 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 411515 waits for ShareLock on transaction 76633359; blocked by process 411506.
+Process 411506 waits for ShareLock on transaction 76633365; blocked by process 411515.;
+Error while executing the query 
+2:24:39 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 507328 waits for ShareLock on transaction 76654781; blocked by process 507310.
+Process 507310 waits for ShareLock on transaction 76654783; blocked by process 507328.;
+Error while executing the query 
+3:28:16 pm -> Error: -2 Tipo: Error al intentar conectarse al servidor. Codigo de error [S1000] [FreeTDS][SQL Server]Unable to connect to data source 
+3:53:04 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 614815 waits for ShareLock on transaction 76677769; blocked by process 614814.
+Process 614814 waits for ShareLock on transaction 76677770; blocked by process 614815.;
+Error while executing the query 
+5:18:03 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 723363 waits for ShareLock on transaction 76703012; blocked by process 723342.
+Process 723342 waits for ShareLock on transaction 76703017; blocked by process 723363.;
+Error while executing the query 
+5:27:13 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 733516 waits for ShareLock on transaction 76705277; blocked by process 733517.
+Process 733517 waits for ShareLock on transaction 76705276; blocked by process 733516.;
+Error while executing the query 

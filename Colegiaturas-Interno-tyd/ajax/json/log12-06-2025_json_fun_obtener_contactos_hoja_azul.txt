@@ -1,0 +1,2 @@
+5:47:41 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 

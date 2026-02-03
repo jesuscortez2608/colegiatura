@@ -1,0 +1,127 @@
+9:54:42 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>93154518</a>
+				<b>1</b>
+				<c>2</c>
+				<d>3</d>
+				<e>CAMPAS</e>
+				<f>LOPEZ</f>
+				<g>JOSE MANUEL</g>
+				<h>1982-08-07</h>
+				<i>2</i>
+				<j>INSTITUTO MUNICIPAL DE PLANEACION DE GU";
+Error while executing the query 
+9:56:14 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>93154518</a>
+				<b>1</b>
+				<c>2</c>
+				<d>3</d>
+				<e>CAMPAS</e>
+				<f>LOPEZ</f>
+				<g>JOSE MANUEL</g>
+				<h>1982-08-07</h>
+				<i>2</i>
+				<j>INSTITUTO MUNICIPAL DE PLANEACION DE GU";
+Error while executing the query 
+9:58:40 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>93154518</a>
+				<b>1</b>
+				<c>2</c>
+				<d>3</d>
+				<e>CAMPAS</e>
+				<f>LOPEZ</f>
+				<g>JOSE MANUEL</g>
+				<h>1982-08-07</h>
+				<i>2</i>
+				<j>INSTITUTO MUNICIPAL DE PLANEACION DE GU";
+Error while executing the query 
+10:07:53 am -> Error: -2 Tipo: Error al intentar conectarse al servidor. Codigo de error [S1000] [FreeTDS][SQL Server]Unable to connect to data source 
+11:01:43 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 2223000 waits for ShareLock on transaction 68858795; blocked by process 2223002.
+Process 2223002 waits for ShareLock on transaction 68858794; blocked by process 2223000.;
+Error while executing the query 
+11:35:35 am -> Error: -2 Tipo: Error al intentar conectarse al servidor. Codigo de error [S1000] [FreeTDS][SQL Server]Unable to connect to data source 
+11:40:02 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 2284866 waits for ShareLock on transaction 68871258; blocked by process 2284867.
+Process 2284867 waits for ShareLock on transaction 68871257; blocked by process 2284866.;
+Error while executing the query 
+11:54:01 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>93154518</a>
+				<b>1</b>
+				<c>2</c>
+				<d>3</d>
+				<e>CAMPAS</e>
+				<f>LOPEZ</f>
+				<g>JOSE MANUEL</g>
+				<h>1982-08-07</h>
+				<i>2</i>
+				<j>INSTITUTO MUNICIPAL DE PLANEACION DE GU";
+Error while executing the query 
+12:03:07 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>93154518</a>
+				<b>1</b>
+				<c>2</c>
+				<d>3</d>
+				<e>CAMPAS</e>
+				<f>LOPEZ</f>
+				<g>JOSE MANUEL</g>
+				<h>1982-08-07</h>
+				<i>2</i>
+				<j>INSTITUTO MUNICIPAL DE PLANEACION DE GU";
+Error while executing the query 
+12:04:45 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>93154518</a>
+				<b>1</b>
+				<c>2</c>
+				<d>3</d>
+				<e>CAMPAS</e>
+				<f>LOPEZ</f>
+				<g>JOSE MANUEL</g>
+				<h>1982-08-07</h>
+				<i>2</i>
+				<j>INSTITUTO MUNICIPAL DE PLANEACION DE GU";
+Error while executing the query 
+12:06:53 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 2332599 waits for ShareLock on transaction 68882575; blocked by process 2332600.
+Process 2332600 waits for ShareLock on transaction 68882574; blocked by process 2332599.;
+Error while executing the query 
+12:06:54 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 2332601 waits for ShareLock on transaction 68882575; blocked by process 2332600.
+Process 2332600 waits for ShareLock on transaction 68882576; blocked by process 2332601.;
+Error while executing the query 
+12:08:28 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>93154518</a>
+				<b>1</b>
+				<c>2</c>
+				<d>3</d>
+				<e>CAMPAS</e>
+				<f>LOPEZ</f>
+				<g>JOSE MANUEL</g>
+				<h>1982-08-07</h>
+				<i>2</i>
+				<j>INSTITUTO MUNICIPAL DE PLANEACION DE GU";
+Error while executing the query 
+12:44:44 pm -> Error: -2 Tipo: Error al intentar conectarse al servidor. Codigo de error [S1000] [FreeTDS][SQL Server]Unable to connect to data source 
+12:49:45 pm -> Error: -2 Tipo: Error al intentar conectarse al servidor. Codigo de error [S1000] [FreeTDS][SQL Server]Unable to connect to data source 
+12:49:59 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 2401274 waits for ShareLock on transaction 68897654; blocked by process 2401276.
+Process 2401276 waits for ShareLock on transaction 68897653; blocked by process 2401274.;
+Error while executing the query 
+1:05:36 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 2426811 waits for ShareLock on transaction 68903206; blocked by process 2426812.
+Process 2426812 waits for ShareLock on transaction 68903205; blocked by process 2426811.;
+Error while executing the query 
+1:48:23 pm -> Error: -2 Tipo: Error al intentar conectarse al servidor. Codigo de error [S1000] [FreeTDS][SQL Server]Unable to connect to data source 
+2:23:28 pm -> Error: -2 Tipo: Error al intentar conectarse al servidor. Codigo de error [S1000] [FreeTDS][SQL Server]Unable to connect to data source 
+4:21:25 pm -> Error: -2 Tipo: Error al intentar conectarse al servidor. Codigo de error [S1000] [FreeTDS][SQL Server]Unable to connect to data source 
+5:41:04 pm -> Error: -2 Tipo: Error al intentar conectarse al servidor. Codigo de error [S1000] [FreeTDS][SQL Server]Unable to connect to data source 
+5:53:35 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 2860514 waits for ShareLock on transaction 68994198; blocked by process 2860515.
+Process 2860515 waits for ShareLock on transaction 68994197; blocked by process 2860514.;
+Error while executing the query 

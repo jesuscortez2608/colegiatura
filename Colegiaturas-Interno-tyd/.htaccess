@@ -1,0 +1,4 @@
+# .htaccess
+# Se establece unas variables de entorno
+SetEnv API_USR_IV "Wh0ouIDYI/1e1DWq"
+SetEnv API_PWD_IV "oceB3eS7KCc+0Xy4"

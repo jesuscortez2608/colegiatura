@@ -1,0 +1,2 @@
+9:49:21 am -> Error al consumir fun_obtener_estados_escuelas 
+9:49:21 am -> Error: 0 Tipo: OK   

@@ -1,0 +1,65 @@
+8:41:59 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 2838635 waits for ShareLock on transaction 86933985; blocked by process 2838649.
+Process 2838649 waits for ShareLock on transaction 86933984; blocked by process 2838635.;
+Error while executing the query 
+8:42:32 am -> Error: -2 Tipo: Error al intentar conectarse al servidor. Codigo de error [S1000] [FreeTDS][SQL Server]Unable to connect to data source 
+10:17:56 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: invalid XML content
+DETAIL: line 50: EntityRef: expecting ';'
+				<j>At&t</j>
+				       ^;
+Error while executing the query 
+10:18:16 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: invalid XML content
+DETAIL: line 50: EntityRef: expecting ';'
+				<j>At&t</j>
+				       ^;
+Error while executing the query 
+10:18:43 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: invalid XML content
+DETAIL: line 50: EntityRef: expecting ';'
+				<j>At&t</j>
+				       ^;
+Error while executing the query 
+10:27:09 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: invalid XML content
+DETAIL: line 50: EntityRef: expecting ';'
+				<j>At&t</j>
+				       ^;
+Error while executing the query 
+10:27:28 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: invalid XML content
+DETAIL: line 50: EntityRef: expecting ';'
+				<j>At&t</j>
+				       ^;
+Error while executing the query 
+10:28:12 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: invalid XML content
+DETAIL: line 50: EntityRef: expecting ';'
+				<j>At&t</j>
+				       ^;
+Error while executing the query 
+10:29:08 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: invalid XML content
+DETAIL: line 50: EntityRef: expecting ';'
+				<j>At&t</j>
+				       ^;
+Error while executing the query 
+10:35:06 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: invalid XML content
+DETAIL: line 50: EntityRef: expecting ';'
+				<j>At&t</j>
+				       ^;
+Error while executing the query 
+10:37:29 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: invalid XML content
+DETAIL: line 50: EntityRef: expecting ';'
+				<j>At&t</j>
+				       ^;
+Error while executing the query 
+10:47:01 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: invalid XML content
+DETAIL: line 50: EntityRef: expecting ';'
+				<j>At&t</j>
+				       ^;
+Error while executing the query 
+11:14:01 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: invalid XML content
+DETAIL: line 50: EntityRef: expecting ';'
+				<j>At&t</j>
+				       ^;
+Error while executing the query 
+12:29:55 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: invalid XML content
+DETAIL: line 50: EntityRef: expecting ';'
+				<j>At&t</j>
+				       ^;
+Error while executing the query 

@@ -1,0 +1,6 @@
+12:53:44 pm -> Error al consumir fun_obtener_estados_escuelas 
+12:53:45 pm -> Error: 0 Tipo: OK   
+12:53:45 pm -> Error al consumir fun_obtener_estados_escuelas 
+12:53:45 pm -> Error: 0 Tipo: OK   
+1:52:03 pm -> Error al consumir fun_obtener_estados_escuelas 
+1:52:03 pm -> Error: 0 Tipo: OK   

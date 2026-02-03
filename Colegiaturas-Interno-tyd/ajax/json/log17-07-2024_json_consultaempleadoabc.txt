@@ -1,0 +1,2 @@
+11:26:52 pm -> Error al conectar BDPERSONALPOSTGRESQLVERSIONNUEVA 
+11:26:52 pm -> Error: -2 Tipo: Error al intentar conectarse al servidor. Codigo de error [S1000] [FreeTDS][SQL Server]Unable to connect to data source   

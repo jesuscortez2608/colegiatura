@@ -1,0 +1,21 @@
+10:41:49 am -> Error: -2 Tipo: Error al intentar conectarse al servidor. Codigo de error [S1000] [FreeTDS][SQL Server]Unable to connect to data source 
+11:54:49 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 3302375 waits for ShareLock on transaction 69287536; blocked by process 3302364.
+Process 3302364 waits for ShareLock on transaction 69287540; blocked by process 3302375.;
+Error while executing the query 
+2:00:22 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 3498689 waits for ShareLock on transaction 69326767; blocked by process 3498604.
+Process 3498604 waits for ShareLock on transaction 69326795; blocked by process 3498689.;
+Error while executing the query 
+3:12:01 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 3588950 waits for ShareLock on transaction 69340945; blocked by process 3588796.
+Process 3588796 waits for ShareLock on transaction 69340959; blocked by process 3588950.;
+Error while executing the query 
+4:27:28 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 3696439 waits for ShareLock on transaction 69360235; blocked by process 3696249.
+Process 3696249 waits for ShareLock on transaction 69360263; blocked by process 3696439.;
+Error while executing the query 
+5:47:15 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 3817780 waits for ShareLock on transaction 69384118; blocked by process 3817927.
+Process 3817927 waits for ShareLock on transaction 69384095; blocked by process 3817780.;
+Error while executing the query 

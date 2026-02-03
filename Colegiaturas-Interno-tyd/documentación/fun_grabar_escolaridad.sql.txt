@@ -1,0 +1,40 @@
+----------------------------------------------
+-- fun_grabar_escolaridad.sql
+
+Definición
+
+La función fun_grabar_escolaridad.sql recibirá los siguientes parámetros:
+
+    idu_escolaridad INT, Folio de la escolaridad. Si es Cero (0), debe insertar una escolaridad nueva. Si es mayor que cero, debe actualizar la escolaridad que coincide con este folio.
+    nom_escolaridad VARCHAR(30), Nombre de la escolaridad
+    fec_captura TIMESTAMP WITHOUT TIME ZONE, Fecha en que se registra el movimiento de inserción o de actualización.
+    idu_empleado_registro INT, Número de empleado que captura la escolaridad
+
+Esta función debe actualizar la tabla cat_escolaridades.
+
+Instalación
+
+    Servidor: 10.44.2.29 (Postgres)
+    BD: administracion
+	
+----------------------------------------------
+-- Formato HTML
+<h2 style="font-style:italic"><strong>Definici&oacute;n</strong></h2>
+
+<p>La funci&oacute;n <em><strong><fun_></fun_>grabar_escolaridad.sql</strong></em> recibir&aacute; los siguientes par&aacute;metros:</p>
+
+<ul>
+	<li>idu_escolaridad INT, Folio de la escolaridad. Si es Cero (0), debe insertar una escolaridad nueva. Si es mayor que cero, debe actualizar la escolaridad que coincide con este folio.</li>
+	<li>nom_escolaridad VARCHAR(30), Nombre de la escolaridad</li>
+	<li>fec_captura TIMESTAMP WITHOUT TIME ZONE, Fecha en que se registra el movimiento de inserci&oacute;n o de actualizaci&oacute;n.</li>
+	<li>idu_empleado_registro INT, N&uacute;mero de empleado que captura la escolaridad</li>
+</ul>
+
+<p>Esta funci&oacute;n debe actualizar la tabla <em><strong>cat_escolaridades</strong></em>.</p>
+
+<h2 style="font-style:italic;"><strong>Instalaci&oacute;n</strong></h2>
+
+<ul>
+	<li>Servidor: 10.44.2.29 (Postgres)</li>
+	<li>BD: administracion</li>
+</ul>

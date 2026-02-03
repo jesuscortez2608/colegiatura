@@ -1,0 +1,21 @@
+1:34:13 pm -> Error: -2 Tipo: Error al intentar conectarse al servidor. Codigo de error [S1000] [FreeTDS][SQL Server]Unable to connect to data source 
+2:29:03 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 1972031 waits for ShareLock on transaction 71930519; blocked by process 1972047.
+Process 1972047 waits for ShareLock on transaction 71930516; blocked by process 1972031.;
+Error while executing the query 
+2:47:42 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 
+2:47:55 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 
+2:48:33 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 
+2:51:11 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 
+3:42:22 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 2085572 waits for ShareLock on transaction 71953946; blocked by process 2085575.
+Process 2085575 waits for ShareLock on transaction 71953943; blocked by process 2085572.;
+Error while executing the query 
+6:02:09 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 2297078 waits for ShareLock on transaction 71999053; blocked by process 2297079.
+Process 2297079 waits for ShareLock on transaction 71999052; blocked by process 2297078.;
+Error while executing the query 

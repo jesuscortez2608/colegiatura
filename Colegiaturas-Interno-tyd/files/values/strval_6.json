@@ -1,0 +1,23 @@
+{
+	"idSAT01" : "Efectivo",
+	"idSAT02" : "Cheque nominativo",
+	"idSAT03" : "Transferencia electrÃ³nica de fondos",
+	"idSAT04" : "Tarjeta de crÃ©dito",
+	"idSAT05" : "Monedero electrÃ³nico",
+	"idSAT06" : "Dinero electrÃ³nico",
+	"idSAT08" : "Vales de despensa",
+	"idSAT12" : "DaciÃ³n en pago",
+	"idSAT13" : "Pago por subrogaciÃ³n",
+	"idSAT14" : "Pago por consignaciÃ³n",
+	"idSAT15" : "CondonaciÃ³n",
+	"idSAT17" : "CompensaciÃ³n",
+	"idSAT23" : "NovaciÃ³n",
+	"idSAT24" : "ConfusiÃ³n",
+	"idSAT25" : "RemisiÃ³n de deuda",
+	"idSAT26" : "PrescripciÃ³n o caducidad",
+	"idSAT27" : "A satisfacciÃ³n del acreedor",
+	"idSAT28" : "Tarjeta de dÃ©bito",
+	"idSAT29" : "Tarjeta de servicios",
+	"idSAT30" : "AplicaciÃ³n de anticipos",
+	"idSAT99" : "Por definir"
+}

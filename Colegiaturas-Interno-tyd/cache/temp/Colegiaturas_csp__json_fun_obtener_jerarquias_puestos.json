@@ -1,0 +1,1 @@
+{"query":"SELECT idu_puesto\r\n\t\t\t\t\t\t, nom_puesto\r\n\t\t\t\t\t\t, nivel_jerarquico\r\n\t\t\t\tFROM fun_obtener_jerarquias_puestos()","data":[]}

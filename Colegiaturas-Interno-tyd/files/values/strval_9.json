@@ -1,0 +1,7 @@
+{
+	"idSATI" : "Ingreso",
+	"idSATE" : "Egreso",
+	"idSATT" : "Traslado",
+	"idSATN" : "NÃ³mina",
+	"idSATP" : "Pago"
+}

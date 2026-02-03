@@ -1,0 +1,31 @@
+9:12:56 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 
+9:13:04 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 
+9:13:25 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 
+9:17:12 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 
+9:17:27 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 
+9:17:41 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 
+9:33:44 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 2077035 waits for ShareLock on transaction 70472224; blocked by process 2077039.
+Process 2077039 waits for ShareLock on transaction 70472220; blocked by process 2077035.;
+Error while executing the query 
+12:56:05 pm -> Error: -2 Tipo: Error al intentar conectarse al servidor. Codigo de error [S1000] [FreeTDS][SQL Server]Unable to connect to data source 
+6:31:29 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>91213681</a>
+				<b>1</b>
+				<c>5</c>
+				<d>3</d>
+				<e>ROSAS</e>
+				<f>NU#EZ</f>
+				<g>JUAN PABLO</g>
+				<h>1980-09-19</h>
+				<i>3</i>
+				<j></j>
+				<k>LICENCIADO EN DISE#O Y PUBLIC";
+Error while executing the query 

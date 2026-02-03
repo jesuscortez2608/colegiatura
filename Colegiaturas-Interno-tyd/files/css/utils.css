@@ -1,0 +1,15 @@
+/** Se asigna la siguiente clase a un dialog
+	de jqueryui para que no muestre el título
+	Al inicializar:
+		during init : $('.selector').dialog({ dialogClass: 'noTitleStuff' });
+	Después de inicializar:
+		$('.selector').dialog('option', 'dialogClass', 'noTitleStuff');
+------------------------------------------------------------------------------------------- */
+.noTitleStuff .ui-dialog-titlebar {
+	display:none
+}
+
+select[disabled] {
+	color: #939192;
+	background-color: #f5f5f5!important;
+}

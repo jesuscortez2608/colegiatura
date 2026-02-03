@@ -1,0 +1,1 @@
+{"query":"SELECT clave, des_clave FROM fun_obtenerCatalogosSat(11::INTEGER, ''::VARCHAR, 1::INTEGER);","data":[{"0":"001","CLAVE":"001","clave":"001","1":"ISR","DES_CLAVE":"ISR","des_clave":"ISR"},{"0":"002","CLAVE":"002","clave":"002","1":"IVA","DES_CLAVE":"IVA","des_clave":"IVA"},{"0":"003","CLAVE":"003","clave":"003","1":"IEPS","DES_CLAVE":"IEPS","des_clave":"IEPS"}]}

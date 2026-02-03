@@ -1,0 +1,32 @@
+10:33:10 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 2883167 waits for ShareLock on transaction 75658151; blocked by process 2883168.
+Process 2883168 waits for ShareLock on transaction 75658150; blocked by process 2883167.;
+Error while executing the query 
+4:24:18 pm -> Error: -2 Tipo: Error al intentar conectarse al servidor. Codigo de error [S1000] [FreeTDS][SQL Server]Unable to connect to data source 
+4:45:20 pm -> Error: -2 Tipo: Error al intentar conectarse al servidor. Codigo de error [S1000] [FreeTDS][SQL Server]Unable to connect to data source 
+5:13:00 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 3511905 waits for ShareLock on transaction 75818433; blocked by process 3511894.
+Process 3511894 waits for ShareLock on transaction 75818436; blocked by process 3511905.;
+Error while executing the query 
+5:49:56 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 
+5:50:06 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 
+5:50:08 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 
+5:52:25 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 
+5:57:45 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 
+6:02:01 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 
+6:04:47 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: value too long for type character(20);
+Error while executing the query 
+6:28:39 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 3618133 waits for ShareLock on transaction 75845789; blocked by process 3618146.
+Process 3618146 waits for ShareLock on transaction 75845786; blocked by process 3618133.;
+Error while executing the query 
+6:29:36 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 3619073 waits for ShareLock on transaction 75845998; blocked by process 3619071.
+Process 3619071 waits for ShareLock on transaction 75845999; blocked by process 3619073.;
+Error while executing the query 

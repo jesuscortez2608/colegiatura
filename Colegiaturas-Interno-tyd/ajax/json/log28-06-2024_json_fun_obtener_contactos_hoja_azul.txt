@@ -1,0 +1,49 @@
+2:24:02 pm -> Error: -2 Tipo: Error al intentar conectarse al servidor. Codigo de error [S1000] [FreeTDS][SQL Server]Unable to connect to data source 
+3:17:46 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 3973665 waits for ShareLock on transaction 67313843; blocked by process 3973666.
+Process 3973666 waits for ShareLock on transaction 67313842; blocked by process 3973665.;
+Error while executing the query 
+3:59:46 pm -> Error: -2 Tipo: Error al intentar conectarse al servidor. Codigo de error [S1000] [FreeTDS][SQL Server]Unable to connect to data source 
+4:06:47 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>93154518</a>
+				<b>1</b>
+				<c>4</c>
+				<d>3</d>
+				<e>CAMPAS</e>
+				<f>LOPEZ</f>
+				<g>JOSE MANUEL</g>
+				<h>1982-08-07</h>
+				<i>2</i>
+				<j>INSTITUTO MUNICIPAL DE PLANEACION DE GU";
+Error while executing the query 
+4:12:30 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>93154518</a>
+				<b>1</b>
+				<c>4</c>
+				<d>3</d>
+				<e>CAMPAS</e>
+				<f>LOPEZ</f>
+				<g>JOSE MANUEL</g>
+				<h>1982-08-07</h>
+				<i>2</i>
+				<j>INSTITUTO MUNICIPAL DE PLANEACION DE GU";
+Error while executing the query 
+4:13:13 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>93154518</a>
+				<b>1</b>
+				<c>4</c>
+				<d>3</d>
+				<e>CAMPAS</e>
+				<f>LOPEZ</f>
+				<g>JOSE MANUEL</g>
+				<h>1982-08-07</h>
+				<i>2</i>
+				<j>INSTITUTO MUNICIPAL DE PLANEACION DE GU";
+Error while executing the query 
+4:41:25 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 4037614 waits for ShareLock on transaction 67324370; blocked by process 4037616.
+Process 4037616 waits for ShareLock on transaction 67324369; blocked by process 4037614.;
+Error while executing the query 

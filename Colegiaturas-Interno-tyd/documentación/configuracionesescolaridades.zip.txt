@@ -1,0 +1,54 @@
+-- configuracionesescolaridades.zip
+Definición
+
+La opción nueva Configuración de Escolaridad, permitirá al usuario capturar una escolaridad nueva, o modificar una existente.
+
+Para agregar o actualizar una escolaridad, el sistema debe usar la función fun_grabar_escolaridad.sql; y para mostrar el grid con las escolaridades ya configuradas debe usarse la función fun_obtener_listado_escolaridades.sql.
+
+Opciones
+
+    Guardar, el botón guardar permitirá guardar los cambios y actualizar el grid.
+    Salir, este botón debe quitarse de la pantalla
+    Editar, Cuando se seleccione un registro del grid y se pulse este botón, la clave y el nombre de la escolaridad deben mostrarse en los campos "Clave" y "Escolaridad" respectivamente. Si el usuario hiciera un cambio en estos controles, deberá guardarlos con el botón "Guardar". Si no seleccionó ningún registro del grid y presionó el botón Editar, debe mandar un mensaje "Seleccione una escolaridad".
+
+Validaciones
+
+    No deben guardarse escolaridades existentes o repetidas. En este caso, debe mostrarse al usuario el mensaje: "La escolaridad ya existe" y evitar que continúe el guardado.
+    No deben guardarse escolaridades con nombre en blanco o cuyo nombre se componga de espacios en blanco.
+    La longitud del cuadro de texto Escolaridad debe poder almacenar hasta 30 caracteres.
+
+Instalación
+
+    Servidor: 10.44.1.110
+    BD: /sysx/apache2/htdocs/administracion/Colegiaturas/
+
+<h2 style="font-style:italic"><strong>Definici&oacute;n</strong></h2>
+
+<p><img alt="" src="http://10.27.94.134/files/configuracion_escolaridad.PNG" style="height:502px; width:645px" /></p>
+
+<p>La opci&oacute;n nueva Configuraci&oacute;n de Escolaridad, permitir&aacute; al usuario capturar una escolaridad nueva, o modificar una existente.</p>
+
+<p>Para agregar o actualizar una escolaridad, el sistema debe usar la funci&oacute;n <em><strong>fun_grabar_escolaridad.sql</strong></em>; y para mostrar el grid con las escolaridades ya configuradas debe usarse la funci&oacute;n <em><strong>fun_obtener_listado_escolaridades.sql</strong></em>.</p>
+
+<p><strong>Opciones</strong></p>
+
+<ul>
+	<li>Guardar, el bot&oacute;n guardar permitir&aacute; guardar los cambios y actualizar el grid.</li>
+	<li>Salir, este bot&oacute;n debe quitarse de la pantalla</li>
+	<li>Editar, Cuando se seleccione un registro del grid y se pulse este bot&oacute;n, la clave y el nombre de la escolaridad deben mostrarse en los campos &quot;Clave&quot; y &quot;Escolaridad&quot; respectivamente. Si el usuario hiciera un cambio en estos controles, deber&aacute; guardarlos con el bot&oacute;n &quot;Guardar&quot;.</li>
+</ul>
+
+<p><strong>Validaciones</strong></p>
+
+<ul>
+	<li>No deben guardarse escolaridades existentes o repetidas. En este caso, debe mostrarse al usuario el mensaje: &quot;Escolaridad existente&quot; y evitar que contin&uacute;e el registro.</li>
+	<li>No deben guardarse escolaridades con nombre en blanco o cuyo nombre se componga de espacios en blanco.</li>
+	<li>La longitud del cuadro de texto Escolaridad debe poder almacenar hasta 30 caracteres.</li>
+</ul>
+
+<h2 style="font-style:italic"><strong>Instalaci&oacute;n</strong></h2>
+
+<ul>
+	<li>Servidor: 10.44.1.110</li>
+	<li>BD: /sysx/apache2/htdocs/administracion/Colegiaturas/</li>
+</ul>

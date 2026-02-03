@@ -1,0 +1,5 @@
+10:48:54 am -> Error: -2 Tipo: Error al intentar conectarse al servidor. Codigo de error [S1000] [FreeTDS][SQL Server]Unable to connect to data source 
+11:49:38 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 4157151 waits for ShareLock on transaction 75392120; blocked by process 4157156.
+Process 4157156 waits for ShareLock on transaction 75392115; blocked by process 4157151.;
+Error while executing the query 

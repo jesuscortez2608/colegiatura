@@ -1,0 +1,310 @@
+10:08:53 am -> Error: -2 Tipo: Error al intentar conectarse al servidor. Codigo de error [S1000] [FreeTDS][SQL Server]Unable to connect to data source 
+11:42:14 am -> Error: -2 Tipo: Error al intentar conectarse al servidor. Codigo de error [S1000] [FreeTDS][SQL Server]Unable to connect to data source 
+12:22:40 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>94770735</a>
+				<b>1</b>
+				<c>8</c>
+				<d>3</d>
+				<e>HERRERA</e>
+				<f>ALVAREZ</f>
+				<g>TEODULO</g>
+				<h>1961-02-17</h>
+				<i>5</i>
+				<j>Servicios globales en administración y ";
+Error while executing the query 
+12:23:33 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>94770735</a>
+				<b>1</b>
+				<c>8</c>
+				<d>3</d>
+				<e>HERRERA</e>
+				<f>ALVAREZ</f>
+				<g>TEODULO</g>
+				<h>1961-02-17</h>
+				<i>5</i>
+				<j>Servicios globales en administración y ";
+Error while executing the query 
+12:27:01 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>94770735</a>
+				<b>1</b>
+				<c>8</c>
+				<d>3</d>
+				<e>HERRERA</e>
+				<f>ALVAREZ</f>
+				<g>TEODULO</g>
+				<h>1961-02-17</h>
+				<i>5</i>
+				<j>Servicios globales en administración y ";
+Error while executing the query 
+12:27:07 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>94770735</a>
+				<b>1</b>
+				<c>8</c>
+				<d>3</d>
+				<e>HERRERA</e>
+				<f>ALVAREZ</f>
+				<g>TEODULO</g>
+				<h>1961-02-17</h>
+				<i>5</i>
+				<j>Servicios globales en administración y ";
+Error while executing the query 
+12:27:22 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>94770735</a>
+				<b>1</b>
+				<c>8</c>
+				<d>3</d>
+				<e>HERRERA</e>
+				<f>ALVAREZ</f>
+				<g>TEODULO</g>
+				<h>1961-02-17</h>
+				<i>5</i>
+				<j>Servicios globales en administración y ";
+Error while executing the query 
+12:27:35 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>94770735</a>
+				<b>1</b>
+				<c>8</c>
+				<d>3</d>
+				<e>HERRERA</e>
+				<f>ALVAREZ</f>
+				<g>TEODULO</g>
+				<h>1961-02-17</h>
+				<i>5</i>
+				<j>Servicios globales en administración y ";
+Error while executing the query 
+12:27:54 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>94770735</a>
+				<b>1</b>
+				<c>8</c>
+				<d>3</d>
+				<e>HERRERA</e>
+				<f>ALVAREZ</f>
+				<g>TEODULO</g>
+				<h>1961-02-17</h>
+				<i>5</i>
+				<j>Servicios globales en administración y ";
+Error while executing the query 
+12:29:17 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>94770735</a>
+				<b>1</b>
+				<c>8</c>
+				<d>3</d>
+				<e>HERRERA</e>
+				<f>ALVAREZ</f>
+				<g>TEODULO</g>
+				<h>1961-02-17</h>
+				<i>5</i>
+				<j>Servicios globales en administración y ";
+Error while executing the query 
+12:31:28 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>94770735</a>
+				<b>1</b>
+				<c>8</c>
+				<d>3</d>
+				<e>HERRERA</e>
+				<f>ALVAREZ</f>
+				<g>TEODULO</g>
+				<h>1961-02-17</h>
+				<i>5</i>
+				<j>Servicios globales en administración y ";
+Error while executing the query 
+12:33:43 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>94770735</a>
+				<b>1</b>
+				<c>8</c>
+				<d>3</d>
+				<e>HERRERA</e>
+				<f>ALVAREZ</f>
+				<g>TEODULO</g>
+				<h>1961-02-17</h>
+				<i>5</i>
+				<j>Servicios globales en administración y ";
+Error while executing the query 
+12:35:12 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>94770735</a>
+				<b>1</b>
+				<c>8</c>
+				<d>3</d>
+				<e>HERRERA</e>
+				<f>ALVAREZ</f>
+				<g>TEODULO</g>
+				<h>1961-02-17</h>
+				<i>5</i>
+				<j>Servicios globales en administración y ";
+Error while executing the query 
+12:35:24 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>94770735</a>
+				<b>1</b>
+				<c>8</c>
+				<d>3</d>
+				<e>HERRERA</e>
+				<f>ALVAREZ</f>
+				<g>TEODULO</g>
+				<h>1961-02-17</h>
+				<i>5</i>
+				<j>Servicios globales en administración y ";
+Error while executing the query 
+12:35:52 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>94770735</a>
+				<b>1</b>
+				<c>8</c>
+				<d>3</d>
+				<e>HERRERA</e>
+				<f>ALVAREZ</f>
+				<g>TEODULO</g>
+				<h>1961-02-17</h>
+				<i>5</i>
+				<j>Servicios globales en administración y ";
+Error while executing the query 
+12:36:21 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>94770735</a>
+				<b>1</b>
+				<c>8</c>
+				<d>3</d>
+				<e>HERRERA</e>
+				<f>ALVAREZ</f>
+				<g>TEODULO</g>
+				<h>1961-02-17</h>
+				<i>5</i>
+				<j>Servicios globales en administración y ";
+Error while executing the query 
+12:36:47 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>94770735</a>
+				<b>1</b>
+				<c>8</c>
+				<d>3</d>
+				<e>HERRERA</e>
+				<f>ALVAREZ</f>
+				<g>TEODULO</g>
+				<h>1961-02-17</h>
+				<i>5</i>
+				<j>Servicios globales en administración y ";
+Error while executing the query 
+12:40:07 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>94770735</a>
+				<b>1</b>
+				<c>8</c>
+				<d>3</d>
+				<e>HERRERA</e>
+				<f>ALVAREZ</f>
+				<g>TEODULO</g>
+				<h>1961-02-17</h>
+				<i>5</i>
+				<j>Servicios globales en administración y ";
+Error while executing the query 
+12:40:27 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>94770735</a>
+				<b>1</b>
+				<c>8</c>
+				<d>3</d>
+				<e>HERRERA</e>
+				<f>ALVAREZ</f>
+				<g>TEODULO</g>
+				<h>1961-02-17</h>
+				<i>5</i>
+				<j>Servicios globales en administración y ";
+Error while executing the query 
+12:42:45 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>94770735</a>
+				<b>1</b>
+				<c>8</c>
+				<d>3</d>
+				<e>HERRERA</e>
+				<f>ALVAREZ</f>
+				<g>TEODULO</g>
+				<h>1961-02-17</h>
+				<i>5</i>
+				<j>Servicios globales en administración y ";
+Error while executing the query 
+12:46:59 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>94770735</a>
+				<b>1</b>
+				<c>8</c>
+				<d>3</d>
+				<e>HERRERA</e>
+				<f>ALVAREZ</f>
+				<g>TEODULO</g>
+				<h>1961-02-17</h>
+				<i>5</i>
+				<j>Servicios globales en administración y ";
+Error while executing the query 
+12:51:32 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>94770735</a>
+				<b>1</b>
+				<c>8</c>
+				<d>3</d>
+				<e>HERRERA</e>
+				<f>ALVAREZ</f>
+				<g>TEODULO</g>
+				<h>1961-02-17</h>
+				<i>5</i>
+				<j>Servicios globales en administración y ";
+Error while executing the query 
+12:52:10 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>94770735</a>
+				<b>1</b>
+				<c>8</c>
+				<d>3</d>
+				<e>HERRERA</e>
+				<f>ALVAREZ</f>
+				<g>TEODULO</g>
+				<h>1961-02-17</h>
+				<i>5</i>
+				<j>Servicios globales en administración y ";
+Error while executing the query 
+12:55:28 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>94770735</a>
+				<b>1</b>
+				<c>8</c>
+				<d>3</d>
+				<e>HERRERA</e>
+				<f>ALVAREZ</f>
+				<g>TEODULO</g>
+				<h>1961-02-17</h>
+				<i>5</i>
+				<j>Servicios globales en administración y ";
+Error while executing the query 
+1:00:55 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>91213681</a>
+				<b>1</b>
+				<c>5</c>
+				<d>3</d>
+				<e>ROSAS</e>
+				<f>NU#EZ</f>
+				<g>JUAN PABLO</g>
+				<h>1980-09-19</h>
+				<i>3</i>
+				<j></j>
+				<k>LICENCIADO EN DISE#O Y PUBLIC";
+Error while executing the query 
+1:28:08 pm -> Error: -2 Tipo: Error al intentar conectarse al servidor. Codigo de error [S1000] [FreeTDS][SQL Server]Unable to connect to data source 
+3:44:57 pm -> Error: -2 Tipo: Error al intentar conectarse al servidor. Codigo de error [S1000] [FreeTDS][SQL Server]Unable to connect to data source 
+4:47:15 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 2451684 waits for ShareLock on transaction 68273585; blocked by process 2451688.
+Process 2451688 waits for ShareLock on transaction 68273583; blocked by process 2451684.;
+Error while executing the query 
+5:51:23 pm -> Error: -2 Tipo: Error al intentar conectarse al servidor. Codigo de error [S1000] [FreeTDS][SQL Server]Unable to connect to data source 
+6:12:55 pm -> Error: -2 Tipo: Error al intentar conectarse al servidor. Codigo de error [S1000] [FreeTDS][SQL Server]Unable to connect to data source 

@@ -1,0 +1,16 @@
+12:42:25 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 1294458 waits for ShareLock on transaction 70905723; blocked by process 1294471.
+Process 1294471 waits for ShareLock on transaction 70905719; blocked by process 1294458.;
+Error while executing the query 
+2:39:57 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 1472420 waits for ShareLock on transaction 70940664; blocked by process 1472422.
+Process 1472422 waits for ShareLock on transaction 70940662; blocked by process 1472420.;
+Error while executing the query 
+2:55:13 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 1490565 waits for ShareLock on transaction 70943448; blocked by process 1490563.
+Process 1490563 waits for ShareLock on transaction 70943449; blocked by process 1490565.;
+Error while executing the query 
+4:26:43 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 1635162 waits for ShareLock on transaction 70972415; blocked by process 1635167.
+Process 1635167 waits for ShareLock on transaction 70972411; blocked by process 1635162.;
+Error while executing the query 

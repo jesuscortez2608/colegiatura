@@ -1,0 +1,56 @@
+Definición
+
+La función fun_obtener_listado_escolaridades.sql no recibirá parámetros.
+
+Debe regresar los datos de la tabla administracion.cat_escolaridades en el siguiente orden:
+
+    idu_escolaridad
+    nom_escolaridad
+    fec_captura
+    idu_empleado_registro
+    nom_empleado_registro
+
+El nombre del empleado lo debe obtener de la tabla administracion.cat_empleadoslinea_gx. Debe enlazarse con esta tabla por medio del campo cat_empleadoslinea_gx .idu_empleado y concatenar el nombre con los siguientes campos:
+
+    cat_empleadoslinea_gx .nom_empleado
+    cat_empleadoslinea_gx .nom_empapellidopaterno
+    cat_empleadoslinea_gx .nom_empapellidomaterno 
+
+Dentro del script de la función se incluirá el type que devolverá la función.
+
+Instalación
+Servidor: 10.44.2.29 (Postgres)
+BD: administracion
+
+
+----------------------------------------------
+-- Formato HTML
+<h2 style="font-style:italic"><strong>Definici&oacute;n</strong></h2>
+
+<p>La funci&oacute;n <em><strong>fun_obtener_listado_escolaridades.sql</strong></em> no recibir&aacute; par&aacute;metros.</p>
+
+<p>Debe regresar los datos de la tabla administracion.cat_escolaridades en el siguiente orden:</p>
+
+<ul>
+	<li>idu_escolaridad</li>
+	<li>nom_escolaridad</li>
+	<li>fec_captura</li>
+	<li>idu_empleado_registro</li>
+	<li>nom_empleado_registro</li>
+</ul>
+
+<p>El nombre del empleado lo debe obtener de la tabla <strong>administracion.cat_empleadoslinea_gx</strong>. Debe enlazarse con esta tabla por medio del campo <strong>cat_empleadoslinea_gx .idu_empleado</strong> y concatenar el nombre con los siguientes campos:</p>
+
+<ul>
+	<li>cat_empleadoslinea_gx .nom_empleado</li>
+	<li>cat_empleadoslinea_gx .nom_empapellidopaterno</li>
+	<li>cat_empleadoslinea_gx .nom_empapellidomaterno</li>
+</ul>
+
+<p>Dentro del script de la funci&oacute;n se incluir&aacute; el type que devolver&aacute; la funci&oacute;n.</p>
+
+<h2 style="font-style:italic"><strong>Instalaci&oacute;n</strong></h2>
+<ul>
+	<li>Servidor: 10.44.2.29 (Postgres)</li>
+	<li>BD: administracion</li>
+</ul>

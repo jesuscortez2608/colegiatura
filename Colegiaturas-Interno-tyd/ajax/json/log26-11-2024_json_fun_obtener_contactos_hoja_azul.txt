@@ -1,0 +1,28 @@
+8:19:41 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 3972887 waits for ShareLock on transaction 91159644; blocked by process 3972856.
+Process 3972856 waits for ShareLock on transaction 91159650; blocked by process 3972887.;
+Error while executing the query 
+8:29:57 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 3984919 waits for ShareLock on transaction 91161353; blocked by process 3984986.
+Process 3984986 waits for ShareLock on transaction 91161337; blocked by process 3984919.;
+Error while executing the query 
+8:30:23 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 3985240 waits for ShareLock on transaction 91161483; blocked by process 3985937.
+Process 3985937 waits for ShareLock on transaction 91161413; blocked by process 3985240.;
+Error while executing the query 
+9:29:38 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 4068830 waits for ShareLock on transaction 91175605; blocked by process 4068630.
+Process 4068630 waits for ShareLock on transaction 91175622; blocked by process 4068830.;
+Error while executing the query 
+9:48:54 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 4100011 waits for ShareLock on transaction 91181561; blocked by process 4099826.
+Process 4099826 waits for ShareLock on transaction 91181615; blocked by process 4100011.;
+Error while executing the query 
+10:45:42 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 4190870 waits for ShareLock on transaction 91198721; blocked by process 4190932.
+Process 4190932 waits for ShareLock on transaction 91198703; blocked by process 4190870.;
+Error while executing the query 
+3:10:09 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 403492 waits for ShareLock on transaction 91274208; blocked by process 403080.
+Process 403080 waits for ShareLock on transaction 91274288; blocked by process 403492.;
+Error while executing the query 

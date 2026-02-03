@@ -1,0 +1,324 @@
+9:03:45 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 2122812 waits for ShareLock on transaction 95455768; blocked by process 2122646.
+Process 2122646 waits for ShareLock on transaction 95455812; blocked by process 2122812.;
+Error while executing the query 
+9:04:50 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 2124578 waits for ShareLock on transaction 95456150; blocked by process 2124666.
+Process 2124666 waits for ShareLock on transaction 95456134; blocked by process 2124578.;
+Error while executing the query 
+9:56:15 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 2219378 waits for ShareLock on transaction 95473983; blocked by process 2219387.
+Process 2219387 waits for ShareLock on transaction 95473980; blocked by process 2219378.;
+Error while executing the query 
+10:23:59 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 2288965 waits for ShareLock on transaction 95490436; blocked by process 2288962.
+Process 2288962 waits for ShareLock on transaction 95490437; blocked by process 2288965.;
+Error while executing the query 
+10:28:48 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 2299562 waits for ShareLock on transaction 95492791; blocked by process 2299465.
+Process 2299465 waits for ShareLock on transaction 95492809; blocked by process 2299562.;
+Error while executing the query 
+10:37:07 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: deadlock detected
+DETAIL: Process 2318144 waits for ShareLock on transaction 95496880; blocked by process 2318055.
+Process 2318055 waits for ShareLock on transaction 95496907; blocked by process 2318144.;
+Error while executing the query 
+10:41:57 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>92816681</a>
+				<b>2</b>
+				<c>10</c>
+				<d>3</d>
+				<e>DUE#AS</e>
+				<f>BENITEZ</f>
+				<g>SAMUEL </g>
+				<h>1980-01-06</h>
+				<i>2</i>
+				<j></j>
+				<k></k>
+				<l>0</l>
+				<m>0</m>
+				<n>0</n>
+				<o>1900-01-01</o>
+				<p>65362</p>
+				<q>10</q>
+			</r>
+			<r>
+				<a>92816681</a>
+				<b>1</b>
+				<c>10</c>
+				<d>4</d>
+				<e>DUE#AS</e>
+				<f>DIAZ</f>
+				<g>NATALIA</g>
+				<h>2017-11-25</h>
+			 
+11:07:26 am -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>92816681</a>
+				<b>2</b>
+				<c>10</c>
+				<d>3</d>
+				<e>DUE#AS</e>
+				<f>BENITEZ</f>
+				<g>SAMUEL </g>
+				<h>1980-01-06</h>
+				<i>2</i>
+				<j></j>
+				<k></k>
+				<l>0</l>
+				<m>0</m>
+				<n>0</n>
+				<o>1900-01-01</o>
+				<p>65362</p>
+				<q>10</q>
+			</r>
+			<r>
+				<a>92816681</a>
+				<b>1</b>
+				<c>10</c>
+				<d>4</d>
+				<e>DUE#AS</e>
+				<f>DIAZ</f>
+				<g>NATALIA</g>
+				<h>2017-11-25</h>
+			 
+12:33:11 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>92816681</a>
+				<b>2</b>
+				<c>10</c>
+				<d>3</d>
+				<e>DUE#AS</e>
+				<f>BENITEZ</f>
+				<g>SAMUEL </g>
+				<h>1980-01-06</h>
+				<i>2</i>
+				<j></j>
+				<k></k>
+				<l>0</l>
+				<m>0</m>
+				<n>0</n>
+				<o>1900-01-01</o>
+				<p>65362</p>
+				<q>10</q>
+			</r>
+			<r>
+				<a>92816681</a>
+				<b>1</b>
+				<c>10</c>
+				<d>4</d>
+				<e>DUE#AS</e>
+				<f>DIAZ</f>
+				<g>NATALIA</g>
+				<h>2017-11-25</h>
+			 
+12:41:46 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>92816681</a>
+				<b>2</b>
+				<c>10</c>
+				<d>3</d>
+				<e>DUE#AS</e>
+				<f>BENITEZ</f>
+				<g>SAMUEL </g>
+				<h>1980-01-06</h>
+				<i>2</i>
+				<j></j>
+				<k></k>
+				<l>0</l>
+				<m>0</m>
+				<n>0</n>
+				<o>1900-01-01</o>
+				<p>65362</p>
+				<q>10</q>
+			</r>
+			<r>
+				<a>92816681</a>
+				<b>1</b>
+				<c>10</c>
+				<d>4</d>
+				<e>DUE#AS</e>
+				<f>DIAZ</f>
+				<g>NATALIA</g>
+				<h>2017-11-25</h>
+			 
+12:41:51 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>92816681</a>
+				<b>2</b>
+				<c>10</c>
+				<d>3</d>
+				<e>DUE#AS</e>
+				<f>BENITEZ</f>
+				<g>SAMUEL </g>
+				<h>1980-01-06</h>
+				<i>2</i>
+				<j></j>
+				<k></k>
+				<l>0</l>
+				<m>0</m>
+				<n>0</n>
+				<o>1900-01-01</o>
+				<p>65362</p>
+				<q>10</q>
+			</r>
+			<r>
+				<a>92816681</a>
+				<b>1</b>
+				<c>10</c>
+				<d>4</d>
+				<e>DUE#AS</e>
+				<f>DIAZ</f>
+				<g>NATALIA</g>
+				<h>2017-11-25</h>
+			 
+12:42:22 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>92816681</a>
+				<b>2</b>
+				<c>10</c>
+				<d>3</d>
+				<e>DUE#AS</e>
+				<f>BENITEZ</f>
+				<g>SAMUEL </g>
+				<h>1980-01-06</h>
+				<i>2</i>
+				<j></j>
+				<k></k>
+				<l>0</l>
+				<m>0</m>
+				<n>0</n>
+				<o>1900-01-01</o>
+				<p>65362</p>
+				<q>10</q>
+			</r>
+			<r>
+				<a>92816681</a>
+				<b>1</b>
+				<c>10</c>
+				<d>4</d>
+				<e>DUE#AS</e>
+				<f>DIAZ</f>
+				<g>NATALIA</g>
+				<h>2017-11-25</h>
+			 
+12:48:26 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>92816681</a>
+				<b>2</b>
+				<c>10</c>
+				<d>3</d>
+				<e>DUE#AS</e>
+				<f>BENITEZ</f>
+				<g>SAMUEL </g>
+				<h>1980-01-06</h>
+				<i>2</i>
+				<j></j>
+				<k></k>
+				<l>0</l>
+				<m>0</m>
+				<n>0</n>
+				<o>1900-01-01</o>
+				<p>65362</p>
+				<q>10</q>
+			</r>
+			<r>
+				<a>92816681</a>
+				<b>1</b>
+				<c>10</c>
+				<d>4</d>
+				<e>DUE#AS</e>
+				<f>DIAZ</f>
+				<g>NATALIA</g>
+				<h>2017-11-25</h>
+			 
+12:51:31 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>92816681</a>
+				<b>2</b>
+				<c>10</c>
+				<d>3</d>
+				<e>DUE#AS</e>
+				<f>BENITEZ</f>
+				<g>SAMUEL </g>
+				<h>1980-01-06</h>
+				<i>2</i>
+				<j></j>
+				<k></k>
+				<l>0</l>
+				<m>0</m>
+				<n>0</n>
+				<o>1900-01-01</o>
+				<p>65362</p>
+				<q>10</q>
+			</r>
+			<r>
+				<a>92816681</a>
+				<b>1</b>
+				<c>10</c>
+				<d>4</d>
+				<e>DUE#AS</e>
+				<f>DIAZ</f>
+				<g>NATALIA</g>
+				<h>2017-11-25</h>
+			 
+12:57:48 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>92816681</a>
+				<b>2</b>
+				<c>10</c>
+				<d>3</d>
+				<e>DUE#AS</e>
+				<f>BENITEZ</f>
+				<g>SAMUEL </g>
+				<h>1980-01-06</h>
+				<i>2</i>
+				<j></j>
+				<k></k>
+				<l>0</l>
+				<m>0</m>
+				<n>0</n>
+				<o>1900-01-01</o>
+				<p>65362</p>
+				<q>10</q>
+			</r>
+			<r>
+				<a>92816681</a>
+				<b>1</b>
+				<c>10</c>
+				<d>4</d>
+				<e>DUE#AS</e>
+				<f>DIAZ</f>
+				<g>NATALIA</g>
+				<h>2017-11-25</h>
+			 
+1:41:01 pm -> Error: 0 Tipo: Error al ejecutar la consulta. ERROR: unterminated quoted string at or near "'<Root>
+			<r>
+				<a>92816681</a>
+				<b>2</b>
+				<c>10</c>
+				<d>3</d>
+				<e>DUE#AS</e>
+				<f>BENITEZ</f>
+				<g>SAMUEL </g>
+				<h>1980-01-06</h>
+				<i>2</i>
+				<j></j>
+				<k></k>
+				<l>0</l>
+				<m>0</m>
+				<n>0</n>
+				<o>1900-01-01</o>
+				<p>65362</p>
+				<q>10</q>
+			</r>
+			<r>
+				<a>92816681</a>
+				<b>1</b>
+				<c>10</c>
+				<d>4</d>
+				<e>DUE#AS</e>
+				<f>DIAZ</f>
+				<g>NATALIA</g>
+				<h>2017-11-25</h>
+			 

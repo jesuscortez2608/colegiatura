@@ -1,0 +1,9 @@
+{
+	"idSAT01" : "Nota de crÃ©dito de los documentos relacionados",
+	"idSAT02" : "Nota de dÃ©bito de los documentos relacionados",
+	"idSAT03" : "Devolucion de mercancia sobre facturas o traslados previos",
+	"idSAT04" : "SustituciÃ³n de los CFDI previos",
+	"idSAT05" : "Traslados de mercancÃ­as facturados previamente",
+	"idSAT06" : "Factura generada por los traslados previos",
+	"idSAT07" : "CFDI por aplicaciÃ³n de anticipo"
+}

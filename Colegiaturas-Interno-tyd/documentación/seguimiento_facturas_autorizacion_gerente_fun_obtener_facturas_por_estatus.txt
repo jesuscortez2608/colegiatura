@@ -1,0 +1,10 @@
+fun_obtener_facturas_por_estatus
+----------------------------------------------------------------------------
+La función fun_obtener_facturas_por_estatus obtiene las facturas de los colaboradores según el estatus seleccionado.
+
+
+
+
+Instalación
+Servidor: 10.44.2.29
+Base de datos: administracion
